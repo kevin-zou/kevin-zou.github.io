@@ -2,6 +2,9 @@
 //   scrollFunction();
 // };
 
+console.log('Hello!');
+throw Error('Hello, error here');
+
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("top-button").style.display = "block";
