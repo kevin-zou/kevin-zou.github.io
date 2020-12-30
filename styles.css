@@ -61,6 +61,10 @@ h3 {
   border-radius: 12px;
 }
 
+.card:not(:last-of-type) {
+  margin-bottom: 40px;
+}
+
 .experience {
   display: flex;
   align-items: center;
@@ -68,6 +72,15 @@ h3 {
 
 .experience-description {
   flex: 0 1 auto;
+}
+
+.experience-header {
+  margin-bottom: 12px;
+}
+
+.experience-length {
+  font-style: italic;
+  text-transform: lowercase;
 }
 
 .logo {
