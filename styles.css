@@ -7,15 +7,36 @@ body {
   text-align: center;
   font-family: 'Arial';
   margin: 0 20%;
+  color: #000000;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background: #1E1C1E;
+  color: #ECECEC;
+}
+
+body.dark-mode a, body.dark-mode h3 {
+  color: #90E2DB;
+}
+
+body.dark-mode .introduction {
+  background: #90E2DB;
+  color: #000000;
+}
+
+body.dark-mode .card {
+  background: #262626;
+  color: #F8F8F8;
 }
 
 a {
+  color: #476A6F;
   text-decoration: none;
 }
 
 h1, h2, h4 {
   text-transform: lowercase;
-  color: black;
 }
 
 h2 {
@@ -33,12 +54,6 @@ h3 {
 
 .navigation {
   text-transform: lowercase;
-}
-
-.navigation a {
-  color: #476A6F;
-  text-decoration: none;
-  margin: 0 12px;
 }
 
 .introduction {
@@ -104,7 +119,7 @@ h3 {
 }
 
 .tag-1 {
-  color: #F8F8F8;
+  color: #000000;
   background: #519E8A;
 }
 
@@ -121,6 +136,24 @@ h3 {
 .footer {
   margin-top: 40px;
   margin-bottom: 20px;
+}
+
+.links a {
+  margin: 0 12px;
+}
+
+.links a:first-of-type {
+  margin-left: 0;
+}
+
+.links a:last-of-type {
+  margin-right: 0;
+}
+
+#dark-mode-toggle {
+  cursor: pointer;
+  text-transform: lowercase;
+  margin-top: 12px;
 }
 
 .social-icon {
